@@ -1,5 +1,5 @@
 AM_CFLAGS = -fno-strict-aliasing -Wall -Wextra -Wpedantic -Wwrite-strings
-
+AM_LDFLAGS = -static
 sbin_PROGRAMS = sniproxy
 
 sniproxy_SOURCES = sniproxy.c \
